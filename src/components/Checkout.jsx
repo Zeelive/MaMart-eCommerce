@@ -1,5 +1,7 @@
 import React from 'react';
 import { useSelector } from "react-redux";
+import { NavLink } from 'react-router-dom';
+
 
 const Checkout = () => {
     const state = useSelector((state) => state.addItem)
@@ -197,7 +199,7 @@ const Checkout = () => {
 
                             <hr className="my-4" />
 
-                            <button className="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                            <NavLink to="/home" className="w-100 btn btn-primary btn-lg">Continue to checkout</NavLink>
                         </form>
                     </div>
                 </div>

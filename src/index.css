@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-nav li a {
+  font-size: 17px;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+  /* margin-right: 5rem; */
+}
+
+.cart {
+  margin-left: rem;
+}
+
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.product img {
+  transition: all 0.5s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.nav-item {
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .cart {
+    margin-left: 10rem;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lead {
+    font-size: 15px;
+  }
+}

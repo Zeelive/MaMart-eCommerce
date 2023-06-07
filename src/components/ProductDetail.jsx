@@ -9,6 +9,7 @@ const ProductDetail = () => {
     const [cartBtn, setCartBtn] = useState("Add to Cart")
 
     const proid = useParams();
+    // eslint-disable-next-line
     const proDetail = DATA.filter(x=>x.id == proid.id)
     const product = proDetail[0];
     console.log(product);
